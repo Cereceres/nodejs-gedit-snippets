@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Basic node.js snippets -->
+
+<snippets language="js">
+
+  <!-- addListener() -->
+
+  <snippet>
+    <text><![CDATA[addListener('${1:event}', function($2){$0});]]></text>
+    <tag>al</tag>
+    <description>addListener()</description>
+  </snippet>
+
+  <!-- addListener() trap -->  
+
+    <snippet>
+    <text><![CDATA[addListener('SIG${1:INT}', function(){
+	$0
+});]]></text>
+    <tag>trap</tag>
+    <description>addListener() trap</description>
+  </snippet>
+
+  <!-- assert.response() -->  
+
+   <snippet>
+    <text><![CDATA[assert.response(${1:server},
+	{ url: '/$2' },
+	{ body: '$3' });]]></text>
+    <tag>ar</tag>
+    <description>assert.response()</description>
+  </snippet>
+
+  <!-- clearInterval() --> 
+
+  <snippet>
+    <text><![CDATA[clearInterval(${1:id})]]></text>
+    <tag>ci</tag>
+    <description>clearInterval()</description>
+  </snippet>
+
+  <!-- clearTimeout() -->
+
+   <snippet>
+    <text><![CDATA[clearTimeout(${1:id})]]></text>
+    <tag>ct</tag>
+    <description>clearTimeout()</description>
+  </snippet>
+
+  <!-- comment -->  
+
+  <snippet>
+    <text><![CDATA[/**
+ * ${1:Description}
+ *
+ * @param {${2:Type}} ${3:name}
+ * @return {${4:Type}}
+ * @api ${5:public}
+ */]]></text>
+    <tag>c</tag>
+    <description>comment</description>
+  </snippet>
+
+  <!-- comment block --> 
+
+  <snippet>
+    <text><![CDATA[/**
+ * ${1:Description}
+ */]]></text>
+    <tag>cb</tag>
+    <description>comment block</description>
+  </snippet>
+
+  <!-- comment file -->  
+
+  <snippet>
+    <text><![CDATA[  /*!
+ * ${1:Project Name}
+ * Copyright(c) 2010 ${2:Author Name} &lt;${3:Author Email}&gt;
+ * MIT Licensed
+ */]]></text>
+    <tag>cf</tag>
+    <description>comment file</description>
+  </snippet>
+
+  <!-- concat string -->
+
+  <snippet>
+    <text><![CDATA[' + $0 + ']]></text>
+    <tag>cs</tag>
+    <description>concat string</description>
+  </snippet>
+
+  <!-- console log -->
+
+  <snippet>
+    <text><![CDATA[console.log($0);]]></text>
+    <tag>cl</tag>
+    <description>console log</description>
+  </snippet>
+
+  <!-- emit() -->
+
+  <snippet>
+    <text><![CDATA[emit('${1:event}');]]></text>
+    <tag>emit</tag>
+    <description>emit()</description>
+  </snippet>
+
+  <!-- fs.readFile() -->
+
+  <snippet>
+    <text><![CDATA[fs.readFile('${1:path}', function(err, data){
+
+});]]></text>
+    <tag>rf</tag>
+    <description>fs.readFile()</description>
+  </snippet>
+
+  <!-- inspect -->
+
+  <snippet>
+    <text><![CDATA[console.dir($0)]]></text>
+    <tag>p</tag>
+    <description>inspect</description>
+  </snippet>
+
+  <!-- module dependencies -->
+
+  <snippet>
+    <text><![CDATA[/**
+ * Module dependencies.
+ */
+
+var ${1:name} = require('${2:module}')]]></text>
+    <tag>md</tag>
+    <description>module dependencies</description>
+  </snippet>
+
+  <!-- Object.keys() -->
+
+  <snippet>
+    <text><![CDATA[Object.keys(${1:obj})]]></text>
+    <tag>ok</tag>
+    <description>Object.keys()</description>
+  </snippet>
+
+  <!-- process.chdir() -->
+
+  <snippet>
+    <text><![CDATA[process.chdir('${1:directory}')]]></text>
+    <tag>cd</tag>
+    <description>process.chdir()</description>
+  </snippet>
+
+  <!-- process.compile() -->
+
+  <snippet>
+    <text><![CDATA[process.compile('${1:source}', '${2:filename}')]]></text>
+    <tag>compile</tag>
+    <description>process.compile()</description>
+  </snippet>
+
+  <!-- process.cwd() -->
+
+  <snippet>
+    <text><![CDATA[process.cwd()]]></text>
+    <tag>cwd</tag>
+    <description>process.cwd()</description>
+  </snippet>
+
+  <!-- process.exit() -->
+
+  <snippet>
+    <text><![CDATA[process.exit(${1:1});]]></text>
+    <tag>exit</tag>
+    <description>process.exit()</description>
+  </snippet>
+
+  <!-- process.kill() -->
+
+  <snippet>
+    <text><![CDATA[process.kill(${1:pid}, 'SIG${2:INT}')]]></text>
+    <tag>kill</tag>
+    <description>process.kill()</description>
+  </snippet>
+
+  <!-- process.nextTick() -->
+
+  <snippet>
+    <text><![CDATA[process.nextTick(function(){
+	$0
+});]]></text>
+    <tag>nt</tag>
+    <description>process.nextTick()</description>
+  </snippet>
+
+  <!-- process.setgid() -->
+
+  <snippet>
+    <text><![CDATA[process.setgid('${1:name string or id}')]]></text>
+    <tag>sgid</tag>
+    <description>process.setgid()</description>
+  </snippet>
+
+  <!-- process.setuid() -->
+
+  <snippet>
+    <text><![CDATA[process.setuid('${1:name string or id}')]]></text>
+    <tag>suid</tag>
+    <description>process.setuid()</description>
+  </snippet>
+
+  <!-- process.umask() -->
+
+  <snippet>
+    <text><![CDATA[process.umask($1)]]></text>
+    <tag>um</tag>
+    <description>process.umask()</description>
+  </snippet>
+
+  <!-- process.version -->
+
+  <snippet>
+    <text><![CDATA[process.version]]></text>
+    <tag>ver</tag>
+    <description>process.version</description>
+  </snippet>
+
+  <!-- require() -->
+
+  <snippet>
+    <text><![CDATA[require('${1:module}')]]></text>
+    <tag>r</tag>
+    <description>require()</description>
+  </snippet>
+
+  <!-- setEncoding() -->
+
+  <snippet>
+    <text><![CDATA[setEncoding('${1:utf8}');]]></text>
+    <tag>se</tag>
+    <description>setEncoding()</description>
+  </snippet>
+
+  <!-- setInterval() -->
+
+  <snippet>
+    <text><![CDATA[setInterval(function(){
+	$0
+}, ${1:ms});]]></text>
+    <tag>si</tag>
+    <description>setInterval()</description>
+  </snippet>
+
+  <!-- setTimeout() -->
+
+  <snippet>
+    <text><![CDATA[setTimeout(function(){
+	$0
+}, ${1:ms});]]></text>
+    <tag>st</tag>
+    <description>setTimeout()</description>
+  </snippet>
+
+  <!-- sys.inherit() -->
+
+  <snippet>
+    <text><![CDATA[sys.inherits(${1:Subclass}, ${2:Superclass});]]></text>
+    <tag>i</tag>
+    <description>sys.inherit()</description>
+  </snippet>
+
+  <!-- throw new Error() -->
+
+  <snippet>
+    <text><![CDATA[throw new Error('$1');]]></text>
+    <tag>te</tag>
+    <description>throw new Error()</description>
+  </snippet>
+
+  <!-- try/catch -->
+
+  <snippet>
+    <text><![CDATA[try {
+	$1
+} catch (err) {
+	$0
+}]]></text>
+    <tag>try</tag>
+    <description>try/catch</description>
+  </snippet>
+</snippets>

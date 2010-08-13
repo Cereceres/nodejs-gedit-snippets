@@ -1,0 +1,36 @@
+
+# node.js snippets for Gedit
+
+ Snippets for [Node](http://nodejs.org), base on TextMate bundle for node of visionmedia (http://github.com/visionmedia/node.tmbundle)
+
+## Snippets
+	al		- addListener()
+	cd		- process.chdir()
+	ci		- clearInterval()
+	ct		- clearTimeout()
+	cwd		- process.cwd()
+	exit	- process.exit()
+	i		- sys.inherit()
+	kill	- process.kill()
+	ok		- Object.keys()
+	p		- require('sys').puts(require('sys').inspect(obj))
+	r		- require()
+	rf		- fs.readFile()
+	rfs		- fs.readFileSync()
+	se		- setEncoding()
+	sgid	- process.setgid()
+	si		- setInterval()
+	st		- setTimeout()
+	suid	- process.setuid()
+	try		- try catch block
+	um		- process.umask()
+
+
+
+
+
+
+
+
+
+
