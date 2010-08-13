@@ -4,33 +4,33 @@
 
 # Snippets
 
-	al		- addListener()
-	ar		- assert.response()
-	c		- comment
-	cd		- process.chdir()
-	ci		- clearInterval()
-	cl		- console log
-	compile		- process.compile()
-	cs		- concat string
-	ct		- clearTimeout()
-	cwd		- process.cwd()
-	emit	        - emit()
-	exit	        - process.exit()
-	i		- sys.inherit()
-	kill	        - process.kill()
-	md	        - module dependencies
-	nt	        - process.nextTick()
-	ok		- Object.keys()
-	p		- require('sys').puts(require('sys').inspect(obj))
-	r		- require()
-	rf		- fs.readFile()
-	rfs		- fs.readFileSync()
-	se		- setEncoding()
-	sgid	        - process.setgid()
-	si		- setInterval()
-	st		- setTimeout()
-	suid	        - process.setuid()
-	te	        - throw new Error()
-	try		- try catch block
-	um		- process.umask()
-	ver		- process.version
+  al		- addListener()
+  ar		- assert.response()
+  c			- comment
+  cd		- process.chdir()
+  ci		- clearInterval()
+  cl		- console log
+  compile	- process.compile()
+  cs		- concat string
+  ct		- clearTimeout()
+  cwd		- process.cwd()
+  emit		- emit()
+  exit		- process.exit()
+  i			- sys.inherit()
+  kill		- process.kill()
+  md		- module dependencies
+  nt		- process.nextTick()
+  ok		- Object.keys()
+  p			- require('sys').puts(require('sys').inspect(obj))
+  r			- require()
+  rf		- fs.readFile()
+  rfs		- fs.readFileSync()
+  se		- setEncoding()
+  sgid		- process.setgid()
+  si		- setInterval()
+  st		- setTimeout()
+  suid		- process.setuid()
+  te		- throw new Error()
+  try		- try catch block
+  um		- process.umask()
+  ver		- process.version
