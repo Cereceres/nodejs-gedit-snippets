@@ -6,7 +6,7 @@
 
   al		- addListener()
   ar		- assert.response()
-  c			- comment
+  c		- comment
   cd		- process.chdir()
   ci		- clearInterval()
   cl		- console log
@@ -16,13 +16,13 @@
   cwd		- process.cwd()
   emit		- emit()
   exit		- process.exit()
-  i			- sys.inherit()
+  i		- sys.inherit()
   kill		- process.kill()
   md		- module dependencies
   nt		- process.nextTick()
   ok		- Object.keys()
-  p			- require('sys').puts(require('sys').inspect(obj))
-  r			- require()
+  p		- require('sys').puts(require('sys').inspect(obj))
+  r		- require()
   rf		- fs.readFile()
   rfs		- fs.readFileSync()
   se		- setEncoding()
